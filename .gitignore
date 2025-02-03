@@ -1,2 +1,2 @@
-.config
-.storage/sqlite.go
+config/
+storage/sqlite/.sqlite.go
