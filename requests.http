@@ -1,0 +1,12 @@
+POST http://localhost:8082/url
+Content-Type: application/json
+Authorization: Basic base64-sakashima-cfiflfey228A!
+
+{
+    "url": "https://youtube.com",
+    "alias": "youtube"
+}
+
+
+###
+DELETE http://localhost:8082/url/metanit

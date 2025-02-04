@@ -64,5 +64,10 @@ func New(log *slog.Logger, urlSaver URLSaver) http.HandlerFunc {
 		if alias == "" {
 			alias = random.NewRandomString(aliasLength)
 		}
+
+		render.JSON(w, r, Response{
+			Response: *api.Ok(),
+			Alias:    alias,
+		})
 	}
 }
