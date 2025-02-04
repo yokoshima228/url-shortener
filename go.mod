@@ -1,15 +1,6 @@
 module github.com/yokoshima228/url-shortener
 
-go 1.18
-
-require (
-	github.com/fatih/color v1.18.0
-	github.com/go-chi/chi/v5 v5.2.0
-	github.com/go-chi/render v1.0.3
-	github.com/go-playground/validator/v10 v10.24.0
-	github.com/ilyakaznacheev/cleanenv v1.5.0
-	github.com/mattn/go-sqlite3 v1.14.24
-)
+go 1.23.5
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
